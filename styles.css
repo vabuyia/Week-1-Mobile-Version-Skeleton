@@ -37,8 +37,8 @@ header li {
 .logo {
   display: flex;
   justify-content: space-between;
-  margin: 0 24px 10px 24px; 
   align-items: center;
+  margin: 0 24px 10px 24px; 
 }
 
 .my-style {
@@ -71,8 +71,8 @@ header li {
 .name p {
   align-items: center;
   height: 146px; 
-  margin: 0 0 30px 0;  
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0 0 30px 0;
   font-size: 20px;
   font-style: normal;
   font-weight: normal;
@@ -80,6 +80,14 @@ header li {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
+}
+
+.apps {
+  display: flex;
+  width: 150px;
+  padding: 0 0 0 24px; 
+  justify-content: space-between;   
+  align-items: center;  
 }
 
 .lets {
@@ -92,14 +100,6 @@ header li {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-}
-
-.apps {
-  display: flex;
-  width: 150px;
-  padding: 0 0 0 24px; 
-  justify-content: space-between;   
-  align-items: center;  
 }
 
 .box1 {
