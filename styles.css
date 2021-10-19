@@ -36,9 +36,9 @@ header li {
 
 .logo {
   display: flex;
+  margin: 0 24px 10px 24px; 
   justify-content: space-between;
   align-items: center;
-  margin: 0 24px 10px 24px; 
 }
 
 .my-style {
@@ -70,10 +70,10 @@ header li {
 
 .name p {
   align-items: center;
+  margin: 0 0 30px 0;  
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 20px;
   height: 146px; 
-  margin: 0 0 30px 0; 
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
@@ -97,8 +97,9 @@ header li {
 .apps {
   display: flex;
   justify-content: space-between;
-  width: 150px; align-items: center;
-  padding-left: 24px; 
+  width: 150px; 
+  align-items: center;
+  padding: 0 0 0 24px; 
 }
 
 .box1 {
@@ -119,10 +120,7 @@ header li {
   padding-right: 5px;
 }
 
-.box4 {
-  height: 20px; 
-  width: 17.99px;
-}
+.box4 { height: 20px; width: 17.99px; }
 
 .box5 {
   height: 20px;
