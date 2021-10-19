@@ -100,9 +100,7 @@ header li {
   align-items: center;
 }
 
-.apps li {
-  display: inline-block; 
-}
+.apps li { display: inline-block; }
 
 .box1 {
   margin-left: -12px;
@@ -110,14 +108,10 @@ header li {
   padding-top: 0;
 }
 
-.box2 {
-  padding-right: 12px; 
-}
+.box2 { padding-right: 12px; }
 
 .box3 {
   padding-right: 12px;
 }
 
-.box4 {
-  padding-right: 12px; 
-}
+.box4 { padding-right: 12px; }
