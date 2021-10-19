@@ -1,6 +1,6 @@
 body {
+  display:flex; 
   min-height: 100vh;
-  display: flex; 
   justify-content: center;
   align-items: center;
   background-color: #e5e5e5;
@@ -45,23 +45,23 @@ header li {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: normal;
   line-height: 20px;
   letter-spacing: 0;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .description {
+  background-size: cover;
   background-image: url(img/header.png);
-  background-size: cover;    
 }
 
-.name {  
+.name {
   padding: 50px 24px 0 24px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: normal;
   line-height: 40px;
   letter-spacing: 0;
   text-align: left;
@@ -69,17 +69,17 @@ header li {
 }
 
 .name p {
-  height: 146px;  
+  align-items: center;
+  height: 146px; 
   margin: 0px 0 30px 0; 
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: normal;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
   color: #344563;
-  align-items: center;
 }
 
 .lets {
@@ -87,19 +87,19 @@ header li {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: normal;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #7f8cff; 
 }
 
 .apps {
   display: flex; 
+  width: 150px; 
   padding-left: 24px; 
   align-items: center;
   justify-content: space-between;
-  width: 150px; 
 }
 
 .box1 {
@@ -111,8 +111,7 @@ header li {
 .box2 {
   width: 4.97px;
   height: 13.72px; 
-  padding-bottom: 5px; 
-  padding-right: 25px;
+  padding: 0 25px 5px 0;
 }
 
 .box3 {
