@@ -42,10 +42,6 @@ header li {
 }
 
 .my-style {
-  height: 20px;
-  width: 76px;
-  left: 12px;
-  top: 10px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -57,7 +53,6 @@ header li {
 }
 
 .description {
-  height: 500px;  
   background-image: url(img/header.png);
   background-size: cover;    
 }
@@ -66,8 +61,7 @@ header li {
   padding: 50px 24px 0 24px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 40px;
   letter-spacing: 0;
   text-align: left;
