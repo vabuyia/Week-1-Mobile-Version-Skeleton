@@ -36,9 +36,9 @@ header li {
 
 .logo {
   display: flex;
-  margin: 0 24px 10px 24px; 
   justify-content: space-between;
   align-items: center;
+  margin: 0 24px 10px 24px; 
 }
 
 .my-style {
@@ -69,11 +69,11 @@ header li {
 }
 
 .name p {
-  height: 146px; 
-  margin: 0 0 30px 0; 
   align-items: center;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 20px;
+  height: 146px; 
+  margin: 0 0 30px 0; 
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
@@ -94,14 +94,38 @@ header li {
   text-align: left;
 }
 
-.apps { display: flex; width: 150px; padding-left: 24px; align-items: center; justify-content: space-between; }
+.apps {
+  display: flex;
+  justify-content: space-between;
+  width: 150px; align-items: center;
+  padding-left: 24px; 
+}
 
-.box1 { width: 19.99px; height: 19.96px; padding-right: 15px; }
+.box1 {
+  height: 19.96px;
+  width: 19.99px;
+  padding-right: 15px;
+}
 
-.box2 { width: 4.97px; height: 13.72px; padding: 0 25px 5px 0; }
+.box2 {
+  height: 13.72px;
+  width: 4.97px;
+  padding: 0 25px 5px 0;
+}
 
-.box3 { width: 20px; height: 16px; padding-right: 5px;}
+.box3 {
+  height: 16px;
+  width: 20px;
+  padding-right: 5px;
+}
 
-.box4 { width: 17.99px; height: 20px; }
+.box4 {
+  height: 20px; 
+  width: 17.99px;
+}
 
-.box5 { width: 14.17px; height: 20px; padding-left: 10px; }
+.box5 {
+  height: 20px;
+  width: 14.17px;
+  padding-left: 10px;
+}
