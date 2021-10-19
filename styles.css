@@ -81,16 +81,8 @@ header li {
   color: #344563;
 }
 
-.apps {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 150px;
-  padding-left: 24px;
-}
-
 .lets {
-  margin: 15px 0 0 24px;
+  margin: 10px 0 0 24px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #7f8cff;
@@ -99,33 +91,32 @@ header li {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apps ul {
+  list-style: none;
+  align-items: center;
+}
+
+.apps li {
+  display: inline-block; 
 }
 
 .box1 {
-  height: 19.96px;
-  width: 19.99px;
-  padding-right: 15px;
+  margin-left: -12px;
+  padding-right: 12px;
 }
 
 .box2 {
-  height: 13.72px;
-  width: 4.97px;
-  padding: 0 25px 5px 0;
+  padding-right: 12px; 
 }
 
 .box3 {
-  height: 16px;
-  width: 20px;
-  padding-right: 5px;
+  padding-right: 12px;
 }
 
 .box4 {
-  height: 20px;
-  width: 17.99px;
-}
-
-.box5 {
-  height: 20px;
-  width: 14.17px;
-  padding-left: 10px;
+  padding-right: 12px; 
 }
